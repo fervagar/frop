@@ -138,7 +138,7 @@ struct Lnode *get_gadget_pointer(int reg){
   return gadget;
 }
 
-unsigned char check_my_outputs(reg){
+unsigned char check_my_outputs(int reg){
   struct Lnode *gadget = NULL;
   int i, *Outputs;
 
