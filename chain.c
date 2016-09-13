@@ -48,7 +48,7 @@ struct list *repository[4];
 struct list *auxiliars_repo[AUXILIAR_REGS];
 
 // [disass.c] //
-inline unsigned char check_gadget_len(struct Lnode *ptr, int n);
+extern unsigned char check_gadget_len(struct Lnode *ptr, int n);
 
 // [sm.c] //
 int build_payload_bin_sh(int r2_missing);

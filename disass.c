@@ -196,7 +196,7 @@ inline unsigned char isValid(instr_obj_32 *op){
 }
 
 // If the length is >= 'n' it returns 1; 0 otherwise //
-inline unsigned char check_gadget_len(struct Lnode *ptr, int n){
+unsigned char check_gadget_len(struct Lnode *ptr, int n){
   if(ptr == NULL || n < 0) return (n <= 0);
   else return check_gadget_len(ptr->next, n - 1);
 }
