@@ -15,7 +15,7 @@
  *  with this program; if not, write to the Free Software Foundation, Inc.,
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  *
- *	Fernando Vanyo Garcia <fervagar@tuta.io>
+ *	Fernando Vanyo Garcia <fernando@fervagar.com>
  */
 
 #include <argp.h>
@@ -27,7 +27,7 @@ int disass(int mode, char *filename);
 
 // Arguments Parser //
 const char *argp_program_version = "Frop v1.0";
-const char *argp_program_bug_address = "<fervagar@tuta.io>";
+const char *argp_program_bug_address = "<fernando@fervagar.com>";
 static char doc[] = "Toolchain for ROP explotation (ELF binaries & ARM architecture)";
 static char args_doc[] = "file";
 static struct argp_option options[] = {

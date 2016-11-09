@@ -15,7 +15,7 @@
  *  with this program; if not, write to the Free Software Foundation, Inc.,
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  *
- *	Fernando Vanyo Garcia <fervagar@tuta.io>
+ *	Fernando Vanyo Garcia <fernando@fervagar.com>
  */
 
 #define SETSIZE(list, s)			(list->size = s)
@@ -24,6 +24,11 @@
 #define SETPOINTER(node, ptr)       (PAYLOAD(node) = ((void*) ptr))
 #define GETVALUE(node, type)		(*((type*)(node->payload)))
 #define GETPOINTER(node, type)		((type*)(&(node->payload)))
+
+/**
+ *  This is an old version of my linkedlist implementation. The updated version
+ *  can be found at https://github.com/fervagar/C-collections
+ */
 
 struct Lnode {
 	struct Lnode *prev;

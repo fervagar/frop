@@ -17,5 +17,5 @@
 	      --usage                Give a short usage message
 	  -V, --version              Print program version
 	
-	Report bugs to <fervagar () tuta.io >
+	Report bugs to <fernando () fervagar.com >
 
