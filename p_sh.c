@@ -29,7 +29,7 @@ struct list *payload;
 unsigned char state[4]; //Only for r0, r1, r2 & r7 in the 'instruction' generation
 unsigned char written[4]; //Only for r0, r1, r2 & r7 in the 'data' generation
 uint32_t store_values_r3[3], store_values_r4[3];
-key_instructions_t key_instructions;
+extern key_instructions_t key_instructions;
 int store_count = 0;
 
 // Vectors for inputs propagation (Only MOVs) //

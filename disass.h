@@ -18,9 +18,6 @@
  *	Fernando Vanyo Garcia <fernando@fervagar.com>
  */
 
-// ReadWrite Segment //
-Elf32_Phdr *readwriteSegm;
-
 // Linked list of decoded instructions //
 extern struct list *list_Instructions;
 

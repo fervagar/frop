@@ -415,9 +415,9 @@ LEAVE:
     munmap(fileptr, statBuff.st_size);
     close(fd);
     if(exitError == 0){
-      freeGadgets();
-      freeList(list_Instructions);
-      freeList(listExecSegm);
+      // freeGadgets();
+      // freeList(list_Instructions);
+      // freeList(listExecSegm);
       return 0;
     }
     else{
